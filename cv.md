@@ -1,3 +1,5 @@
+                                                            CV
+
 
 **First Name:**       Teona
 
@@ -5,6 +7,11 @@
 
  **Email:**           teonaanikashvili@gmail.com
 
+ **Mobile**           +995 593 318 833
+
+ **Country**          Georgia
+ 
+ **linkedin**         https://www.linkedin.com/in/teona-anikashvili-177a6b150/
 
 
     
