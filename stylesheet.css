@@ -1,38 +1,56 @@
 
 h1{
-    text-align: center;
+    margin-left: 590px;
     font-size: 40px;
+    width: 650px;
+    color: rgb(141, 203, 241);
     
 }
 p{
     color: rgba(180, 202, 252, 0.842);
-    text-align: center;
+    margin-left: 375px;
+    width: 885px;
+    padding: 20px;
+    background-color: rgba(9, 37, 70, 0.644);
+    font-size: 20px;
     
     
 }
  .back{
-background-color: rgb(4, 58, 55);
-height: 1040px;
+background-color: rgb(13, 12, 39);
+height: 1024px;
 
 } 
-h1, h2{
+/*h1, h2{
     color:rgb(141, 203, 241);
 }
-
+*/
 .list{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    color: rgb(8, 102, 71);
-    width: 280px;
-    
+    color: rgb(13, 117, 143);
+    width: 290px;
+    padding: 15px;
+    margin: 1px;
+    background-color: rgb(9, 26, 56);
     box-sizing: border-box;
 }
 
 
  h2{
-
-    text-align: center;
+    margin-left: 265px;
+    width: 190px;
+    padding: 5px;
+    background-color: rgba(3, 53, 78, 0.39);
+    color: rgb(141, 203, 241);
 
  } 
+ img{
+ float: right;
+ width: 170px;
+ height: 210px;
+ background-color: rgb(9, 26, 56);
+ 
+ }
   
