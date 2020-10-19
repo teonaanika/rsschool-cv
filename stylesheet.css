@@ -40,13 +40,12 @@ height: 1024px;
     background-color: rgb(9, 26, 56);
     box-sizing: border-box;
     float: left;
-    
 }
 
 
  h2{
     margin-left: 10px;
-    width: 190px;
+    width: 140px;
     padding: 5px;
     background-color: rgba(3, 53, 78, 0.39);
     color: rgb(141, 203, 241);
@@ -62,8 +61,6 @@ height: 1024px;
  
  }
   .sec{
-
-    
-    padding: 125px;
+    padding: 173px;
     
   }
