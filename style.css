@@ -1,0 +1,18 @@
+body, html{
+    height:100%;
+    width: 100%;
+    background: beige;
+}
+.mainbox{
+    
+    width: 700px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+
+}
