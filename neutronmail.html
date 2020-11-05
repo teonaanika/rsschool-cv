@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="neutronmail.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c8c3b0dc4a.js" crossorigin="anonymous"></script>
     <title>NeutronMail</title>
 
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <h1 class="flex">NeutronMail</h1>
-            <div class="right-block flex">
-                <nav class="navigation">
+
+   <main>
+    <header class="header container">
+        <div class="flex headbox fonts container">
+            <div class="flex">
+    
+                 <h3 class=" fonts headerh3">neutron<span class="mailcolor">Mail</span></h3>
+            
+            </div>
+               
+            
+            <div class="flex">
+                <nav class="flex">
                     <ul class="navigation-ul flex list">
                         <li class="navigation-li">
                             <a href="#" class="navigation-a">About</a>
@@ -22,44 +32,43 @@
                             <a href="#" class="navigation-a">Security</a>
                         </li>
                         <li class="navigation-li">
-                            <a href="#" class="navigation-a">Careers</a>
+                            <a href="#" class="navigation-a">Blog</a>
+                        </li>
+                        <li class="navigation-li">
+                            <a href="#" class="navigation-a navigationelem">Careers</a>
                         </li>
                         <li class="navigation-li">
                             <a href="#" class="navigation-a">Support</a>
                         </li>
                         <li class="navigation-li">
-                            <a href="#" class="navigation-a">Donate</a>
-                        </li>
-                        
-                    </ul>
+                            <a href="#" class="navigation-a navigationelem">Donate</a>
+                        </li>  
                 </nav>
-                <ul class="sign-icons flex list">
-
-                    <li class="navigation-li">
-                        <i class="fas fa-sign-in-alt"> log in</i>
-                    </li>
-                    <li class="navigation-li">
-                        <a href="#" class="navigation-a">Sighn out</a>
-                    </li>
+                <ul class=" flex sign-icons list">
+                        <li class="iconlist">
+                         <a href="#"><i class="fas fa-sign-in-alt logincolor sineinicon"></i>Log in</a></i>
+                        </li>
+                        <li>
+                            <button class="sineupbotton">sign up</button>
+                        </li> 
+                    
                 </ul>
-
-            </div>
-
+            </div>  
         </div>
 
-        <div class="flex navigation-lang">
-            <nav class="navigation-lang">
-                <ul class="flex list">
-                    <li class="list-leng flex left-margin">
+        <div class="flexnowrap container langngdiv">
+            <nav class="flexnowrap langngdiv ">
+                <ul class="flexnowrap  fonts">
+                    <li class="list-lang list">
                         <a href="#">Engish</a>
                     </li>
-                    <li class="list-leng flex">
+                    <li class="list-lang list">
                         <a href="#">French</a>
                     </li>
-                    <li class="list-leng flex ">
+                    <li class="list-lang list list">
                         <a href="#">Italian</a>
                     </li>
-                    <li class=" list-leng flex">
+                    <li class=" list-lang list">
                         <a href="#">Polish</a>
                     </li>
                  </ul>
@@ -67,51 +76,234 @@
         </div>  
   </header>
 
-  <section>
-      <div class="flex section-text section-ul">
-          <div>
-          <h2>Secure Email communication</h2>
-          <p class="centerp">Bases in Somewhere</p>
-          </div>
-          <div class="flex">
-              <nav>
-                  <ul class="list section-ul">
-                      <li>
-                        <a href="#"><i class="fab fa-google-plus-square"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-facebook-square"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-twitter-square"></i></a>
-                      </li>
-                 </ul>
-              </nav>
-          </div>
-      </div>
+  <section class="container relative fonts">
       <div>
-        <nav>
-            <ul class=" social-li centerp flex list">
-                <li class="section-li">
-                    <a href="#" class="section-a">create an account</a>
+            <img src="backgroundmountains.jpg" alt="backgroundimg" class="backgrimg"> 
+        <div class="absolute">  
+          <h1 class="h1">Secure Email Communication</h1>
+          <p class="backgroundparagraph">Based in Somewhere</p>
+        </div>
+        <div class="absoluteicons">
+            <ul class="list googleicon:last-child">
+                <li class="googleicon">
+                  <a href="#"><i class="fab fa-google-plus-square"></i></a>
                 </li>
                 <li>
-                  <i class="fab fa-apple section-li"></i>
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li class="tweeticon">
+                  <a href="#"><i class="fab fa-twitter-square"></i></a>
+                </li>
+           </ul>
+          </div>
+          <div class="iconposition">
+            <ul class="list flex iconul">
+                <li>
+                    <button class="accounticon">create account</button>
+                </li>
+                <li>
+                <button class="aplicon"><i class="fab fa-apple section-li"></i></button>
               </li>
               <li>
-                  <i class="fab fa-google-play section-li"></i>
+                  <button class="plicon"><i class="fab fa-google-play section-li"></i></button>
               </li>
             </ul>
-        </nav>
-    </div>
-   
-      
+            </div>
+      </div>
+ </section>
+
+
+  <!-- middle section -->
+      <div class="midlcoldiv">
+          <article class="articlecolum"> 
+            <div>
+            <img src="crosslogo.jpg" alt="crosslogo" class="img">
+            <h3 class="h3element">Swiss Privacy </h3>
+            <h4 class="h4element1">Data security and Neutrality</h4>
+            </div>
+            <p>NeutronMail is incorporated in Somewhere and all our serv-
+            ers are located in Switzeland.This means all user data is 
+            protectes by strict Swiss privacy laws</p>
+            </article>
+          <article class="articlecolum">
+            <div>
+                <img src="lock.jpg" alt="lock" class="img">
+                <h3 class="h3element">Double Encryption </h3>
+                <h4 class="h4element2and3">Automatic Email Security</h4>
+            </div>
+            <p>All emails are secured automatically with end-to-end
+            encryption. This means even we cannot decrypt and read
+            your emails. As a result, you encrypted emails cannot
+            be shared with third parties</p>
+            </article>
+          <article class="articlecolum">
+             <div>
+                <img src="key.jpg" alt=" key" class="img">
+                <h3 class="h3element">Anonymous Email </h3>
+                <h4 class="h4element2and3">Protect your Privacy </h4>
+             </div>
+            <p>No personal information is required to create your secure
+                email account.By default, we do not keep any IP logs which
+                can be linked to your anonimus email account.Your privacy comes firs.</p>
+            </article>
+      </div>
+  <section class="flex">
+    <div class="flex secdiv">
+        <div class="securchildiv">
+          <h2 class="securh2">Physical Security</h2>
+          <p class="securp">NeutronMail's infrastructure resides in Europe's <span>most secure</span> 
+          datacenter, underneath 1000 meters of solid rock.</p>
+      </div>
+    </div>    
+  </section>
+  <div class="learnabdiv">
+      <nav class="learnaboutnav">
+          <a href="#">Learn more about security features</a>
+      </nav>
+  </div>
+
+  <div class="jurnals">
+      <img src="jurnals.jpg" alt="jurnals">
+  </div>
+  <section>
+      <div>
+        <div class="device">
+            <img src="devicebackground.jpg" alt="device">
+            <div class="devicetext">
+                <div>
+                  <h2 class="devtext">Any device, anywhere</h2>
+                  <p class=>The NeutronMail inbox is optimized for productivity.
+                      Each detail within our secure email service is optimized to help your better
+                      read, organize, and send email.
+                  </p>
+                </div>
+              </div>
+              <article>
+                <div>
+                    <div class=" articledive flex">
+                        <div>
+                           <ul class="list dotes" >
+                              <li class="doteblack"></li>
+                              <li class="dotegray"></li>
+                              <li class="lightgray"></li>
+                            </ul>
+                        </div>
+                        <div class="articletex">
+                           <p>A new email service being developed a group
+                            from MIT and CERN promises to bring secure,
+                            encrypted email to the masses and keep sensitive
+                            information away from prying eyes.
+                            <p>-Boston Harald</p>
+                           </p>
+                        </div>
+                    </div>
+                </div> 
+          </article>
+
+          </div>
+        </div>
+        
+        
+        
+    
   </section>
 
+  <section>
+      <div>
+          <div class="privactxt">
+            <h3>Privacy is a fundamental human right.</h3>
+            <p>Yor support helps us to protect 
+               privacy world-wide</p>
+          </div>
+        </div>
 
-  <!-- <section>
-    
-  </section> -->
-    
+      <div class="privacyicons">
+        <ul class="privlist list flex">
+            <li class="firsticonpart"><i class="fas fa-cloud-upload-alt iconpart"></i>Upgrade to Paid Plane</li>
+            <li class="secondicon"><i class="fas fa-dollar-sign iconparttwo"></i>Donate</li>
+        </ul>
+      </div>
+      
+  </section>
+  <footer>
+    <div class="priveimg">
+        <h5>Those,who help us secure your privacy</h5>
+        <img src="privacylogos.jpg" alt="logo">
+    </div>
+      <div class="footerfirstdiv flex">
+          <div>
+            <nav class="footerfirstnav">
+                <p class="pfirst-child">Generai: <a href="mailto:mailto:contact@neutronmail.ch">contact@neutronmail.ch</a></p>
+                <p>Media: <a href="mailto:mailto:media@neutronmail.ch">media@neutronmail.ch</a></p>
+                <p>Security: <a href="mailto:mailto:security@neutronmail.ch">security@neutronmail.ch</a></p>
+                <p class="pnth-child">For support inquiries, please visit</p>
+                <p><a href="neutronmail.com/support">neutronmail.com/support</a></p>
+            </nav>
+          </div>
+
+          <div class="firstcoldiv">
+            <h3 class="h3first-child">Company</h3>
+            <ul class="listcontent">
+                <li class="firstli">blog</li>
+                <li>Team</li>
+                <li class="therthli">Careers</li>
+                <li>Support</li>
+                <li class="forthli">Donate</li>
+            </ul>
+          </div>
+
+          <div class="seccol">
+            <h3 class="h3sec-child">Legal</h3>
+            <ul>
+                <li class="seccolfirstli">imprint</li>
+                <li>Privacy Policy</li>
+                <li class="seccoltherthli">Terms & Conditions</li>
+                <li>Transparancy Reports</li>
+                <li class="seccollastli">Report Abuse</li>
+            </ul>
+          </div>
+
+          <div class="lastcol">
+            <h3 class="h3lastcol">NeutronMail</h3>
+            <ul class="listcontent">
+                <li class="lastcolfirstli">pricing</li>
+                <li>Security</li>
+                <li class="lastcolthirsli">Shop</li>
+                <li>Press/Media Kit</li>
+                <li class="lastcollastli">Onion Site</li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="footernav">
+            <nav>
+                <ul class="list footernav-ul flex">
+                    <li class="footernav-li">
+                        <a href="#">Facebook</a>
+                    </li>
+                    <li class="footernav-li">
+                     <a href="#">Twitter</a>
+                 </li>
+                 <li class="footernav-li">
+                     <a href="#">Google+</a>
+                 </li>
+                 <li class="footernav-li">
+                     <a href="#">Feedback Forum</a>
+                 </li>
+                 <li class="footernav-li">
+                     <a href="#">Reddit</a>
+                 </li>
+                </ul>
+                <p class="copywr">&#169; 2017 Neutron Technologies AG.All Right Reserved</p>
+            </nav>
+
+        </div>
+
+
+
+  </footer>
+   </main>
+
+  
 </body>
 </html>
