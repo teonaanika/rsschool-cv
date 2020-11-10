@@ -199,7 +199,166 @@
     font-size: 24px;
     
 }
+.midlcoldiv{
+    width: 100%;
+    display: flex;
+    margin-left: 307px;
+    margin-top: 110px;
+    }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
  /* 
 .head{
@@ -256,12 +415,7 @@
 
 /* middle section */
 
-.midlcoldiv{
-    width: 100%;
-    display: flex;
-    margin-left: 300px;
-    margin-top: 72px;
-    }
+
     .articlecolum{
         padding: 10px;
         flex:1;
